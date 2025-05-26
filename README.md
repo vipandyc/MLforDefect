@@ -6,8 +6,8 @@ This code relies on PyTorch and machine learning interatomic potentials (MLIPs).
 
 1. **(Recommended)** Create a conda virtual environment. Specifying `python=3.12` version works for our case.
 ```
-conda create -n crygen
-conda activate crygen
+conda create -n ml_defect
+conda activate ml_defect
 ``` 
 2. Install the torch version (recommended with CUDA GPU) 2.4.1. Please check the cuda version most compatible to your machine on the official torch website ([torch website](https://pytorch.org/get-started/previous-versions/)). **Important: please specify `"numpy<2"` in the command.** For example run:
 ```
@@ -18,3 +18,8 @@ conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1  pytorch-cuda
 ```
 pip install mattersim
 ```
+5. Clone the repository using `git clone`. All set!
+
+## DefectNet: solving dopants from phonon density of states
+Here we implement 
+
