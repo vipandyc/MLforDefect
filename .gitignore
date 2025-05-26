@@ -1,0 +1,10 @@
+__pycache__/
+PhonDos_dataset/
+*.sh
+*.out
+*.json
+*.npy
+*.pkl
+*.pth
+*.pt
+*.png
