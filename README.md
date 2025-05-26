@@ -1,5 +1,5 @@
 # Machine learning for defect
-Code repository for solving defects with machine learning. (Under active development; new features to be added)
+Code repository for solving defects with machine learning. (*Under active development; new features to be added*)
 
 ## Installation guide
 This code relies on PyTorch and machine learning interatomic potentials (MLIPs). For a smooth construction of a compatible python environment, we recommend users to follow the steps below:
