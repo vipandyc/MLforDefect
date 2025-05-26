@@ -21,5 +21,9 @@ pip install mattersim
 5. Clone the repository using `git clone`. All set!
 
 ## DefectNet: solving dopants from phonon density of states
-Here we implement 
+Here we implement DefectNet, a foundational model for solving substitutional dopants from phonon density of states:
+- `ML_training.ipynb` provides a quick demo on how this works. Using a small model we show that one can predict multiple dopants in Silicon.
+- `gen_defect_data` folder provides workflow to generate vibrational spectra from doped supercells.
+- `DefectNet` folder shows a few demo notebooks for predicting more diversed defects.
+Currently DefectNet supports substitutional dopants, and it's under active development to include vacancies, interstitial dopants, correlated defects, etc. 
 
